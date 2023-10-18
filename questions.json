@@ -1,0 +1,116 @@
+{
+    "questions": [
+        {
+            "text": "Which of the following is NOT one of the categories in the IT Infrastructure Framework? \nA. Compute\nB. Networking\nC. Operating Systems\nD. Storage\nE. Books\nF. None of the Above",
+            "answer": "E"
+        },
+        {
+            "text": "Which best matches the definition of Compute with respect to a data center? \nA. Windows 10/MacOS\nB. A server (computer)\nC. Digital Storage\nD. An adding machine\nE. A robot\nF. A calculator",
+            "answer": "B"
+        },
+        {
+            "text": "The chapter explains that data centers in established companies are unlikely to be around much longer. \nA. True\nB. False",
+            "answer": "B"
+        },
+        {
+            "text": "What is the management library that helps IT managers manage their IT and IT Services? \nA. EBSCO\nB. COFIT\nC. ITIL\nD. GAAP\nE. EIEFFEL",
+            "answer": "C"
+        },
+        {
+            "text": "When Amazon launched AWS in 2006, it was revolutionary mainly because it had never been possible to rent servers before. \nA. True\nB. False",
+            "answer": "B"
+        },
+        {
+            "text": "In generic IT service terms, which service did AWS launch in 2006? \nA. Operating Systems \nB. Compute \nC. Security \nD. Applications ",
+            "answer": "B"
+        },
+        {
+            "text": "When spinning up a server in AWS, which is the final decision you have to make regarding where a server is located? \nA. Choose a data center in an Availability Zone \nB. Choose an Availability Zone in a particular region \nC. Choose a Region in the AWS Global cloud \nD. Choose a rack in a specific data center",
+            "answer": "B"
+        },
+        {
+            "text": "What is a key reason that AWS became so popular? \nA. Amazon.com was afamous consumer website \nB. Pricing by the hour \nC. The best server hardware \nD. The fastest internet ",
+            "answer": "B"
+        },
+        {
+            "text": "Which is true about a Type 1 hypervisor? \nA. The hypervisor software is installed on top of the operating system \nB. The hypervisor is called a virtual machine \nC. The hypervisor is installed directly on the hardware \nD. This type of hypervisor is less efficient than using Type 2 ",
+            "answer": "C"
+        },
+        {
+            "text": "There are 10 instance configurations (combinations of vCPUs, amount of RAM) available from AWS. \nA. True\nB. False",
+            "answer": "B"
+        },
+        {
+            "text": "The lowest price, but also the most unreliable way you can use an AWS instance is: \nA. On-demand pricing \nB. Reserved instance \nC. Spot instances \nD. Dedicated Hosts ",
+            "answer": "C"
+        },
+        {
+            "text": "What does \u201cauto-scaling\u201d mean in terms of EC2 instances? \nA. Your application will be moved to more or less powerful machines throughout that day based on your application load. \nB. You can set your fleet of instances to automatically grow or shrink based on criteria you set. \nC. You can manually increase and decrease your fleet of instances throughout the day. \nD. You pay a set amount for your EC2 instances and AWS takes care of the hardware allocation to meet your application load ",
+            "answer": "B"
+        },
+        {
+            "text": "Which of the following is NOT true about Elastic Block Store? \nA. It is like a hard drive that is attached to your EC2 Instance \nB. It never goes down and its data is never lost \nC. You can create a snapshot of your hard drive \nD. You can have multiple hard drives attached to a single EC2 instance ",
+            "answer": "B"
+        },
+        {
+            "text": "Private IP Addresses have to be allocated to a subnet in a specific Availability Zone before EC2 instances can be launched in a subnet. \nA. True\nB. False",
+            "answer": "A"
+        },
+        {
+            "text": "The AWS VPC is most similar to: \nA. A WAN \nB. A routing table \nC. A LAN \nD. An ARP ",
+            "answer": "C"
+        },
+        {
+            "text": "True or False: A private subnet is associated with a routing table that has a route to an Internet Gateway? \nA. True\nB. False",
+            "answer": "B"
+        },
+        {
+            "text": "What is the maximum number of IP addresses that can be allocated to a single VPC? \nA. 16,777,216\nB. 65,536\nC. 256\nD. 16",
+            "answer": "B"
+        },
+        {
+            "text": "True or False: A VPC may have multiple routing tables available that can be assigned to a specific subnet. \nA. True\nB. False",
+            "answer": "A"
+        },
+        {
+            "text": "T/F AWS manages the security of EC2 instances that you run by patching your operating systems regularly. \nA. True\nB. False",
+            "answer": "B"
+        },
+        {
+            "text": "Security Groups are firewalls that operate at the level of: \nA. The AWS Global Infrastructure \nB. An individual VPC \nC. A subnet \nD. An availability zone \nE. An EC2 instance \nF. An application running on an EC2 instance ",
+            "answer": "E"
+        },
+        {
+            "text": "Which type of firewall in AWS remembers if traffic it sees is part of a session or an ongoing conversation? \nA. Stateless\nB. Stateful",
+            "answer": "B"
+        },
+        {
+            "text": "Which type of firewall in AWS is stateless? \nA. NACL\nB. Barracuda\nC. Cisco\nD. Security Groups",
+            "answer": "A"
+        },
+        {
+            "text": "Which of the following ports is likely to relate to a Microsoft Windows Server? \nA. 25 \nB. 110 \nC. 3389 \nD. 22 ",
+            "answer": "C"
+        },
+        {
+            "text": "Relational Databases have tables comprised of rows and columns \nA. True\nB. False",
+            "answer": "A"
+        },
+        {
+            "text": "One of the strengths of NoSQL databases as mentioned in the chapter is to join tables together. \nA. True\nB. False",
+            "answer": "B"
+        },
+        {
+            "text": "One of the strengths of relational databases as mentioned in the chapter is the ability to scale infinitely with little drop off in performance. \nA. True\nB. False",
+            "answer": "B"
+        },
+        {
+            "text": "If you use an EC2 instance to host a database, which of the following is NOT one of the challenges of running a database this way? \nA. Patching database software \nB. Patching operating system software \nC. You have to install the initial operating system \nD. Retaining a database clustering expert on staff \nE. Server crashes ",
+            "answer": "C"
+        },
+        {
+            "text": "Which of the following is NOT one of the databases supported by the managed service Amazon RDS? \nA. Oracle\nB. MySQL\nC. Aurora\nD. Neo4j\nE. MariaDB",
+            "answer": "D"
+        }
+    ]
+}
